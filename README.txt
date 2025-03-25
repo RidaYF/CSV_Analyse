@@ -58,6 +58,3 @@ Un compte pour login à la page d'accueil d'application(si vous ne voulez pas cr
 Test des fichiers CSV
     on a ajouter un dossier "CSV FILES" qui contient des fichiers pour tester les fonctionnalités d'application
 
-Auteurs : 
-
-    [ Yassine Tabakna - Ilays Hrizi - Hajar Lamghari 3chirt simo- Yassine Ait Bouhou ]
