@@ -1,0 +1,11 @@
+col1,col2,col3,col4
+1,apple,10.0,
+2,banana,20.0,
+,orange,30.0,
+4,,40.0,
+5,banana,,
+,apple,60.0,
+text,banana,,
+text2,,80.0,
+text1,orange,,
+text3,orange,100.0,

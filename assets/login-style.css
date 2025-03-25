@@ -1,0 +1,171 @@
+
+
+
+.form-group {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center; /* Aligns label and input vertically */
+  gap: 10px; /* Adds spacing between label and input */
+}
+
+.form-label {
+  display: inline-block; /* Allows label to appear next to the input */
+
+  font-weight: bold;
+  width: 400px; /* Fixed width to align labels */
+  text-align: left; /* Aligns text to the right for better readability */
+}
+
+.input-field {
+  flex-grow: 1; /* Allows input fields to take the remaining space */
+}
+
+.radio-item {
+  margin-right: 10px; /* Adds space between radio button and label */
+}
+
+.gender-options {
+  display: flex;
+  gap: 15px; /* Adds spacing between radio buttons */
+  align-items: center;
+}
+
+/* Centered Form Container */
+.form-container {
+  background-color: #f2fffbe7;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 800px;
+  text-align: center;
+}
+
+/* Input Fields */
+.input-field {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+/* Buttons */
+.login-button,
+.signup-button,
+.google-login-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0b6e4f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.login-button,
+.google-login-button{
+  margin: 7px;
+  margin-top: 50px;
+}
+.login-button:hover,
+.signup-button:hover,
+.google-login-button:hover {
+  background-color: #0a7f5a;
+  box-shadow: 2px 2px 15px rgb(0 0 0 / 0.3);
+  
+}
+
+/* Link Styling */
+.signup-link {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
+.signup-link:hover {
+  text-decoration: underline;
+  color: #2d2d2d;
+}
+
+/* Form Title */
+.form-title {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 28px;
+  margin-bottom: 70px;
+}
+
+/* Split Container for Login Page */
+.split-container {
+  display: flex;
+  width: 80%; /* Adjust to fit content */
+  height: 80%; /* Adjust for the overall height */
+  margin: auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden; /* Ensures content stays within the container */
+  background-color: #0b6e4f;
+}
+
+/* Left Side */
+.left-side {
+  flex: 1; /* Takes 50% width */
+  background-image: url('/assets/background.jpg'); /* Replace with your image */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  color: white; /* Ensure text contrast */
+  text-align: center;
+}
+
+.left-side img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 22px;
+}
+
+.left-side h1 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.left-side p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Right Side */
+.right-side {
+  flex: 1; /* Takes 50% width */
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9; /* Light gray for contrast */
+}
+#login-feedback,
+#sign-up-feedback{
+  font-size: small;
+  color: #ff0000;
+}
+
+.show-password-btn {
+  background: none;
+  border: none;
+  color: #39bd93;
+  font-size: 12px;
+  cursor: pointer;
+  margin: 0px;
+}
+
+.show-password-btn:hover {
+  text-decoration: underline;
+}

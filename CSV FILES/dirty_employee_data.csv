@@ -1,0 +1,11 @@
+Employee_ID,Name,Department,Salary,Joining_Date
+101,John,HR,5000,2020-01-15
+102,Anna,Finance,5500,2019-12-01
+103,maria,It,six_thousand,2021-02-30
+104,joHN ,HR,,15-01-2020
+105,ANNA,,4800,
+101,John,IT,5000,2020-01-15
+106, George,Finance,6000,2022-06-15
+107,Maria ,It,6200,2021/02/15
+108,lucas,HR,4900,2019-03-01
+109,anna,finance,5500 ,2021-02-30

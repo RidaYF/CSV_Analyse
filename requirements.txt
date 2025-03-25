@@ -1,0 +1,9 @@
+dash
+dash-bootstrap-components
+plotly
+pandas
+flask-caching
+reportlab
+firebase_admin
+bcrypt
+kaleido
